@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="Gallery.css" />
+</head>
+
+<body>
+<div>
+	<h1 style= "font-size:100px; color:LightSkyBlue">Dana's Gallery</h1>  
+	<img src= "images/shalom.jpg" style= "width:200px; position:absolute; right: 50px; top:20px "/>
+	<h4>Click on the images below:</h4>
+</div>
+
+<div id="row" class="row"/>
+
+<div class="container">  
+  <div id="imgtext"></div>
+  <img id="expandedImg" style="width:80%" >
+  <div class = "closebtn" onclick="this.parentElement.style.display='none'">&times;</div>
+</div>
+
+<script src="gallery.js"></script>
+</body>
+
+</html>
